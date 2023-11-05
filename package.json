@@ -1,16 +1,28 @@
 {
-	"name": "fcc-learn-npm-package-json",
+	"name": "@freecodecamp/example",
 	"dependencies": {
-		"express": "^4.14.0"
+	  "@freecodecamp/example" : "1.1.0",
+	  "package-name" : "version",
+	  "express": "^1.1.0"
 	},
 	"main": "server.js",
 	"scripts": {
-		"start": "node server.js"
+	  "start": "node server.js"
 	},
 	"repository": {
-		"type": "git",
-		"url": "https://idontknow/todo.git"
+	  "type": "git",
+	  "url": "https://idontknow/todo.git"
 	},
-
-	"author": "Raphael"
-}
+  
+	"author": "Raphael",
+  
+	"description": "não tenho ideia do que eu to fazendo :( ",
+  
+	"keywords": ["freecodecamp", "estudando", "live", "depressão"],
+  
+	"license": "MIT",
+  
+	"version" : "1.0"
+  }
+  
+  
